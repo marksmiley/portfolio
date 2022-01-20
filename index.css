@@ -1,3 +1,78 @@
 h1 {
-  color: red;
+  text-align: center;
+  color: lightslategray;
+  background-color: lightgray;
+  box-sizing: content-box;
+  width: 300px;
+  box-align: center;
+  padding: 5px;
+  border: 3px double whitesmoke;
+}
+
+p {
+  background-color: lightgray;
+  border: 3px double whitesmoke;
+  font-size: 2pc;
+}
+
+li {
+  float: left;
+}
+
+ul {
+  background-color: lightgray;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  top: 0;
+}
+
+a {
+  display: block;
+  width: 10pc;
+  height: 2pc;
+  text-align: center;
+}
+
+li a {
+  font-family: Arial, Helvetica, sans-serif;
+  font: Arial;
+  display: block;
+  border: 3px double whitesmoke;
+  color: lightslategray;
+  text-align: center;
+  padding: 14px 16px;
+  margin: 0px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: slategray;
+  color: white;
+}
+
+.active {
+  background-color: silver;
+}
+
+body {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  border: 3px solid silver;
+  background-color: rgb(197, 223, 231);
+}
+
+p {
+  text-align: center;
+  color: slategray;
+}
+
+h3 {
+  color: slateGray;
+}
+
+li {
+  color: gray;
 }
