@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.menu-container {
+  color: #fff;
+  background-color: #5995da; /* Blue */
+  padding: 20px 0;
+  display: flex;
+}
+
+.menu {
+  border: 1px solid #fff; /* For debugging */
+  width: 900px;
+  padding: 1pc;
+  display: flex;
+  justify-content: space-between;
+}
+
+.links {
+  display: flex;
+  /* border: 1px solid #fff; */
+  justify-content: flex-end;
+}
+
+.login {
+  margin-left: 20px;
+}
